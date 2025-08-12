@@ -1,8 +1,8 @@
 function trocaCor(){
 
-    const troca = document.getElementById("galeraDoNarga")
+    const troca = document.getElementById("nargas")
 
-    troca.classList.add(".destaque");
+    troca.classList.add("destaque");
    
     
 }
