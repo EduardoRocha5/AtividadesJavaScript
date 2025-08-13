@@ -4,7 +4,7 @@ function incrementar() {
     count++;
     const contadorEl = document.getElementById("contador");
 
-    contadorEl.textContent = `Número de cliques: ${count}`;
+    contadorEl.textContent = "Número de cliques: " + count;
 
     if (count <= 4) {
         contadorEl.style.color = "green";    // até 4 cliques fica verde
